@@ -1,0 +1,45 @@
+.loader {
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+/* .loader-inner{
+} */
+.image-block {
+  position: absolute;
+  transform-origin: center;
+}
+.image-1 {
+  width: 250px;
+  left: 17%;
+  bottom: 14%;
+}
+.image-2 {
+  /* position: absolute; */
+  width: 500px;
+  /* transform-origin: center; */
+}
+.image-3 {
+  width: 200px;
+  right: 13%;
+  top: 12%;
+}
+.image-4 {
+  max-width: 250px;
+  width: 40%;
+  right: 20%;
+  bottom: 10%;
+}
+.image-5 {
+  width: 200px;
+  left: 13%;
+  top: 10%;
+}
+img {
+  width: 100%;
+  object-fit: fill;
+}
