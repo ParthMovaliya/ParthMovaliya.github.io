@@ -17,7 +17,7 @@ const Landing = () => {
               autoStart: true,
               loop: true,
               delay: 100,
-              strings: ["Fullstack Developer", "Student", "Gamer"]
+              strings: ["Fullstack Developer", "Computer Engineering Student", "Website Developer"]
             }}
           />
         </div>
