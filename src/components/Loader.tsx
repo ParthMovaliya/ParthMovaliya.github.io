@@ -1,7 +1,7 @@
 "use client";
 
 import "../styles/loader.css"
-import React, { Dispatch, SetStateAction, useEffect } from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
 import { motion } from "framer-motion";
 
 const container = {
@@ -60,17 +60,14 @@ const Loader = (props: { setLoading: Dispatch<SetStateAction<boolean>> }) => {
         className="loader-inner"
       >
         <ImageBlock variants={item} id="image-1" />
-        <div
+        <motion.div variants={itemMain} className="image-2-container"
         >
-          <motion.div variants={itemMain} className="image-2-container"
-          >
-            <motion.img
-              className="image-2"
-              layoutId="main-image-1"
-              src={`/images/image-2.jpg`}
-            />
-          </motion.div>
-        </div>
+          <motion.img
+            className="image-2"
+            layoutId="main-image-1"
+            src={`/public/images/image-2.jpg`}
+          />
+        </motion.div>
         <ImageBlock variants={item} id="image-3" />
         <ImageBlock variants={item} id="image-4" />
         <ImageBlock variants={item} id="image-5" />
@@ -88,12 +85,7 @@ export const ImageBlock: React.FC<IImageBlockProps> = ({ variants, id }) => {
   return (
     <>
       <motion.div variants={variants} className={`image-block ${id}`}>
-        <img
-          src={`/images/${id}.jpg`}
-          className=""
-          alt={id}
-        // fallback={process.env.PUBLIC_URL + `/images/${id}.jpg`}
-        />
+        <img src="/images/${id}.jpg" className="" alt={id} />
       </motion.div>
     </>
   )
