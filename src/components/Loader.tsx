@@ -64,11 +64,10 @@ const Loader = (props: { setLoading: Dispatch<SetStateAction<boolean>> }) => {
         >
           <motion.img
             className="image-2"
-            layoutId="main-image-1"
-            src="../../images/image-2.jpg"
+            layoutId="main-image-2"
+            src="/../public/images/image-2.jpg"
           />
         </motion.div>
-        {/* <ImageBlock variants={item} id="2" /> */}
         <ImageBlock variants={item} id="image-3" />
         <ImageBlock variants={item} id="image-4" />
         <ImageBlock variants={item} id="image-5" />

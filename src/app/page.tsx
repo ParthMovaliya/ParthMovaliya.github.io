@@ -53,8 +53,8 @@ export default function Home() {
                     <div className=''>
                       <motion.img
                         transition={{ ease: 'easeInOut', duration: 1.6 }}
-                        src={`/images/image-2.jpg`}
-                        layoutId='main-image-1'
+                        src={`/../public/images/image-2.jpg`}
+                        layoutId='main-image-2'
                       />
                     </div>
                   )}
