@@ -51,7 +51,7 @@ iGOD.pm
             message: "Mail Send Done!!",
         });
     } catch (error) {
-        console.log(error);
+        // console.log(error);
         return new Response({
             success: false,
             message: "Mail Send Error!!",
