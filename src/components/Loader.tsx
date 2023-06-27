@@ -1,5 +1,5 @@
 "use client";
-import image_2 from "/images/image-2.jpg";
+import image_2 from "../../public/images/image-2.jpg";
 import "../styles/loader.css"
 import React, { Dispatch, SetStateAction } from 'react'
 import { motion } from "framer-motion";
