@@ -85,7 +85,7 @@ export const ImageBlock: React.FC<IImageBlockProps> = ({ variants, id }) => {
   return (
     <>
       <motion.div variants={variants} className={`image-block ${id}`}>
-        <img src="/images/${id}.jpg" className="" alt={id} />
+        <img src={`/images/${id}.jpg`} className="" alt={id} />
       </motion.div>
     </>
   )
