@@ -60,15 +60,15 @@ const Loader = (props: { setLoading: Dispatch<SetStateAction<boolean>> }) => {
         className="loader-inner"
       >
         <ImageBlock variants={item} id="image-1" />
-        {/* <motion.div variants={itemMain} className="image-2-container"
+        <motion.div variants={itemMain} className="image-2-container"
         >
           <motion.img
             className="image-2"
             layoutId="main-image-1"
-            src="../../images/image-2.jpg"
+            src="../../images/2.jpg"
           />
-        </motion.div> */}
-        <ImageBlock variants={item} id="2" />
+        </motion.div>
+        {/* <ImageBlock variants={item} id="2" /> */}
         <ImageBlock variants={item} id="image-3" />
         <ImageBlock variants={item} id="image-4" />
         <ImageBlock variants={item} id="image-5" />
