@@ -10,7 +10,7 @@ const Landing = () => {
       <a href="#contact" className='scroll_down'>Scroll Down</a>
       <div className="flex flex-col gap-2 items-center -translate-y-6">
         <div className='text-sm sm:text-xl'>Hello, I'm</div>
-        <div className='text-4xl sm:text-5xl'>Parth Movaliya</div>
+        <div className='text-[36px] sm:text-5xl '>Parth Movaliya</div>
         <div className="text-lg sm:text-2xl">
           <Typewriter
             options={{

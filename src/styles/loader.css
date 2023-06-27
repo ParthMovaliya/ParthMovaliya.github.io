@@ -7,39 +7,141 @@
   justify-content: center;
   height: 100vh;
 }
-/* .loader-inner{
-} */
+
 .image-block {
   position: absolute;
   transform-origin: center;
 }
 .image-1 {
-  width: 250px;
-  left: 17%;
-  bottom: 14%;
+  width: 20rem;
+  left: 14%;
+  bottom: 12%;
+  border: 1px solid rgba(128, 128, 128, 0.339);
+  box-shadow: 10px;
 }
 .image-2 {
-  /* position: absolute; */
-  width: 500px;
-  /* transform-origin: center; */
+  width: 31.25rem;
+  transform: translateY(-10%);
 }
 .image-3 {
-  width: 200px;
-  right: 13%;
+  width: 12.5rem;
+  right: 15%;
   top: 12%;
 }
 .image-4 {
-  max-width: 250px;
-  width: 40%;
+  width: 18.75rem;
   right: 20%;
   bottom: 10%;
 }
 .image-5 {
-  width: 200px;
-  left: 13%;
+  width: 12.5rem;
+  left: 17%;
   top: 10%;
+  border: 1px solid rgba(128, 128, 128, 0.356);
 }
 img {
   width: 100%;
   object-fit: fill;
+}
+
+@media only screen and (max-width: 1300px) {
+  .image-1 {
+    left: 6%;
+    bottom: 10%;
+  }
+  .image-2 {
+    width: 27.25rem;
+  }
+  .image-3 {
+    right: 9%;
+    top: 10%;
+  }
+  .image-4 {
+    right: 10%;
+    bottom: 8%;
+  }
+  .image-5 {
+    left: 12%;
+    top: 8%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .image-1 {
+    width: 17rem;
+    left: 9%;
+    bottom: 6%;
+  }
+  .image-2 {
+    width: 26.25rem;
+    transform: translateY(-10%);
+  }
+  .image-3 {
+    width: 10.5rem;
+    right: 8%;
+    top: 6%;
+  }
+  .image-4 {
+    width: 16.75rem;
+    right: 9%;
+    bottom: 8%;
+  }
+  .image-5 {
+    width: 10.5rem;
+    left: 9%;
+    top: 8%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .image-1 {
+    width: 15rem;
+    left: 6%;
+    bottom: 6%;
+  }
+  .image-2 {
+    width: 24.25rem;
+    transform: translateY(-10%);
+  }
+  .image-3 {
+    width: 8.5rem;
+    right: 5%;
+    top: 6%;
+  }
+  .image-4 {
+    width: 12.75rem;
+    right: 6%;
+    bottom: 8%;
+  }
+  .image-5 {
+    width: 8.5rem;
+    left: 5%;
+    top: 8%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .image-1 {
+    width: 12rem;
+    left: 9%;
+    bottom: 16%;
+  }
+  .image-2 {
+    margin: 0px auto;
+    width: 80%;
+    transform: translateY(-10%);
+  }
+  .image-3 {
+    width: 7.5rem;
+    right: 8%;
+    top: 6%;
+  }
+  .image-4 {
+    width: 10.75rem;
+    right: 9%;
+    bottom: 8%;
+  }
+  .image-5 {
+    width: 7.5rem;
+    left: 9%;
+    top: 2%;
+  }
 }

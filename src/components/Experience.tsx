@@ -76,6 +76,13 @@ const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className='mt-[6px] text-blue-500' />
               <div>
+                <h4 className='font-semibold'>Express Js</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className='mt-[6px] text-blue-500' />
+              <div>
                 <h4 className='font-semibold'>MongoDb</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
