@@ -14,7 +14,7 @@ const AboutMe = () => {
 
       <div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
         <div className="flex justify-center lg:justify-normal">
-          <Image className='w-9/12 md:w-1/2 lg:w-9/12 object-cover' height={1000} width={1000} src="/../public/images/my.jpg" alt="Me" />
+          <Image className='w-9/12 md:w-1/2 lg:w-9/12 object-cover' height={1000} width={1000} src="/../public/images/image-2.jpg" alt="Me" />
         </div>
         <div className="flex flex-col gap-4">
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-3">
