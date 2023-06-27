@@ -1,5 +1,5 @@
 "use client";
-
+import image_2 from "/images/image-2.jpg";
 import "../styles/loader.css"
 import React, { Dispatch, SetStateAction } from 'react'
 import { motion } from "framer-motion";
@@ -65,7 +65,7 @@ const Loader = (props: { setLoading: Dispatch<SetStateAction<boolean>> }) => {
           <motion.img
             className="image-2"
             layoutId="main-image-1"
-            src="/images/image-2.jpg"
+            src={image_2.src}
           />
         </motion.div>
         <ImageBlock variants={item} id="image-3" />
