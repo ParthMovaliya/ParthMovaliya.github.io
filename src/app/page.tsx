@@ -50,10 +50,12 @@ export default function Home() {
                 <div className="flex justify-center lg:justify-normal">
                   {/* <Image className='w-9/12 md:w-1/2 lg:w-9/12 object-cover' height={1000} width={1000} src="/../public/images/my.jpg" alt="Me" /> */}
                   {!loading && (
-                    <div className=''>
+                    <div className=' mx-auto w-3/4 md:w-1/2 lg:w-10/12'>
                       <motion.img
+                        // className="max-w-xl"
                         transition={{ ease: 'easeInOut', duration: 1.6 }}
-                        src="../../images/image-2.JPG"
+                        // src="../../images/image-2.JPG"
+                        src="../../images/my.jpg"
                         layoutId='main-image-2'
                       />
                     </div>
