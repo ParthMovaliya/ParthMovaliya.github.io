@@ -40,10 +40,10 @@ const Navbar = () => {
               {menu ? "Close" : "Menu"}
             </button>
             {menu && <div className="dropdown">
-              <a className='dropdown_link' href="#about">About</a>
-              <a className='dropdown_link' href="#experience">Experience</a>
-              <a className='dropdown_link' href="#services">Services</a>
-              <a className='dropdown_link' href="#contact">Contact</a>
+              <a className='dropdown_link' href="#about" onClick={() => setMenu((menu) => !menu)}>About</a>
+              <a className='dropdown_link' href="#experience" onClick={() => setMenu((menu) => !menu)}>Experience</a>
+              <a className='dropdown_link' href="#services" onClick={() => setMenu((menu) => !menu)}>Services</a>
+              <a className='dropdown_link' href="#contact" onClick={() => setMenu((menu) => !menu)}>Contact</a>
             </div>}
           </div>
         </nav>
