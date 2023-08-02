@@ -22,6 +22,11 @@ const ContactMe = () => {
           message: message,
         })
       });
+      if (response.ok) {
+        if (nameRef.current) nameRef.current.value = "";
+        if (emailRef.current) emailRef.current.value = "";
+        if (messageRef.current) messageRef.current.value = "";
+      }
       // console.log(response);
     } catch (error) {
       // console.log(error);
