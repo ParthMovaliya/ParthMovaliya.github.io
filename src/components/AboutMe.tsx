@@ -17,7 +17,7 @@ const AboutMe = () => {
           <Image
             className='w-9/12 md:w-1/2 lg:w-9/12 object-cover'
             height={1000} width={1000}
-            src="/../public/images/my.jpg"
+            src="/../public/images/my_2.jpg"
             // src="/../public/images/image-2.jpg" 
             alt="Me" />
         </div>
@@ -46,7 +46,7 @@ const AboutMe = () => {
             </article>
           </div>
           <p>
-            I am currently pursuing my B.Tech in Computer Science Engineering from Leelaben Dashrathbhai Ramdas Patel Institute Of Technology And Research (LDRP-ITR).I have completed Full Stack Web Development Program from The Complete 2022 Web Development Bootcamp by Dr. Angela Yu from Udemy(Online), I will graduate in 2024. I have Completed my SSC & HSC from Gujarat State Board in 2018 & 2020 respectively.
+            I am a Computer Engineer with 1 year of professional experience in full-stack web development. I graduated in 2024 with a B.Tech in Computer Science Engineering from Leelaben Dashrathbhai Ramdas Patel Institute of Technology and Research (LDRP-ITR). I have strong expertise in building responsive, user-friendly web applications using technologies like React, Angular, Node.js, and Java. I'm passionate about clean code, scalable architecture, and continuous learning.
           </p>
           <a href="#contact" className='lets-talk-btn w-24 text-center'>Let's Talk</a>
         </div>

@@ -55,7 +55,7 @@ export default function Home() {
                         // className="max-w-xl"
                         transition={{ ease: 'easeInOut', duration: 1.6 }}
                         // src="../../images/image-2.JPG"
-                        src="../../images/my.jpg"
+                        src="../../images/my_2.jpg"
                         layoutId='main-image-2'
                       />
                     </div>
@@ -67,7 +67,7 @@ export default function Home() {
                       <FaAward className='mx-auto text-2xl' />
                       <div className="text-center mt-4">
                         <h5 className='text-sm'>Experience</h5>
-                        <small className='text-lg'>Fresher</small>
+                        <small className='text-lg'>2+ Year</small>
                       </div>
                     </article>
                     <article className='experience_Container'>
@@ -86,7 +86,7 @@ export default function Home() {
                     </article>
                   </div>
                   <p>
-                    I am currently pursuing my B.Tech in Computer Science Engineering from Leelaben Dashrathbhai Ramdas Patel Institute Of Technology And Research (LDRP-ITR).I have completed Full Stack Web Development Program from The Complete 2022 Web Development Bootcamp by Dr. Angela Yu from Udemy(Online), I will graduate in 2024. I have Completed my SSC & HSC from Gujarat State Board in 2018 & 2020 respectively.
+                    I am a Computer Engineer with 2 year of professional experience in full-stack web development. I graduated in 2024 with a B.Tech in Computer Science Engineering from Leelaben Dashrathbhai Ramdas Patel Institute of Technology and Research (LDRP-ITR). I have strong expertise in building responsive, user-friendly web applications using technologies like React, Angular, Node.js, and Java. I'm passionate about clean code, scalable architecture, and continuous learning.
                   </p>
                   <a href="#contact" className='lets-talk-btn w-24 text-center'>Let's Talk</a>
                 </div>

@@ -21,6 +21,8 @@
 }
 .image-2 {
   width: 31.25rem;
+  height: 31.25rem;
+  object-fit: cover;
   transform: translateY(-10%);
 }
 .image-3 {
