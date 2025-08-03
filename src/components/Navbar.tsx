@@ -19,7 +19,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className={`sticky -top-4 z-20 ${scrolled ? "backdrop-blur border border-gray-300 bg-white/40 " : ""}`} >
+    <div className={`sticky -top-4 z-20 ${scrolled ? "backdrop-blur border-b border-gray-300 bg-white/40 " : ""}`} >
       <div className="app">
         <nav className="flex py-5 mt-4 justify-between items-center">
           <div className="">
